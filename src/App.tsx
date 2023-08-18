@@ -4,6 +4,7 @@ import AddBtn from "./components/AddBtn";
 import Item from "./components/Item/Item";
 import Form from "./components/Form/Form";
 import { useState } from "react";
+import BtnClose from "./components/BtnClose";
 
 const Container = styled.div`
   background-color: #282c34;
@@ -92,6 +93,7 @@ function App() {
           setToDoList={setToDoList}
         />
         <Title>AAAAAAAAAAAAAAAAAAA</Title>
+        <BtnClose />
         <SearchAddContainer>
           <SearchBar search={search} setSearch={setSearch} />
           <AddBtn isOpen={openForm} setOpenForm={setOpenForm} />
