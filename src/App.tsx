@@ -93,7 +93,6 @@ function App() {
           setToDoList={setToDoList}
         />
         <Title>AAAAAAAAAAAAAAAAAAA</Title>
-        <RecordBn />
         <SearchAddContainer>
           <SearchBar search={search} setSearch={setSearch} />
           <AddBtn isOpen={openForm} setOpenForm={setOpenForm} />
