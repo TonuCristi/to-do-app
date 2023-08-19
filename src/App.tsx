@@ -15,6 +15,7 @@ const Container = styled.div`
   flex-direction: column;
   gap: 3.2rem;
   background-color: yellow;
+  background-color: red;
 `;
 
 const AppContainer = styled.div`
