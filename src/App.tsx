@@ -91,7 +91,7 @@ function App() {
           toDoList={toDoList}
           setToDoList={setToDoList}
         />
-        <Title>To-do App</Title>
+        <Title>To-do Appppppppp</Title>
         <SearchAddContainer>
           <SearchBar search={search} setSearch={setSearch} />
           <AddBtn isOpen={openForm} setOpenForm={setOpenForm} />
