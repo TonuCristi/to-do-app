@@ -14,6 +14,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
+  background-color: yellow;
 `;
 
 const AppContainer = styled.div`
